@@ -1,3 +1,4 @@
+// ## Exercise 1.1 Create function following below
 const a=8;
 const b=4;
 //...................
@@ -28,3 +29,9 @@ function divide(a,b){
 }
 const answerDivide=divide(a,b);
 console.log(answerDivide);
+
+// ## Exercise 1.2 Create Function Inform---</br>
+function addName(firstName,location,hobby){
+console.log("Hi, my name is " + firstName + "I live in " + location + " and enjoy "+hobby);
+}
+addName("Pongsakon","Nonthaburi","sleep");
